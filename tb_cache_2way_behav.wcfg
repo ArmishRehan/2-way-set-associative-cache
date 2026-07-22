@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cache_2way_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cache_2way" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="127612800fs"></ZoomStartTime>
+      <ZoomEndTime time="212212801fs"></ZoomEndTime>
+      <Cursor1Time time="167223000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="124"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/tb_cache_2way/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/cpu_req" type="logic">
+      <obj_property name="ElementShortName">cpu_req</obj_property>
+      <obj_property name="ObjectShortName">cpu_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/cpu_we" type="logic">
+      <obj_property name="ElementShortName">cpu_we</obj_property>
+      <obj_property name="ObjectShortName">cpu_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/cpu_addr" type="array">
+      <obj_property name="ElementShortName">cpu_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/cpu_wdata" type="array">
+      <obj_property name="ElementShortName">cpu_wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/cpu_rdata" type="array">
+      <obj_property name="ElementShortName">cpu_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/cpu_hit" type="logic">
+      <obj_property name="ElementShortName">cpu_hit</obj_property>
+      <obj_property name="ObjectShortName">cpu_hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/cpu_ready" type="logic">
+      <obj_property name="ElementShortName">cpu_ready</obj_property>
+      <obj_property name="ObjectShortName">cpu_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/mem_req" type="logic">
+      <obj_property name="ElementShortName">mem_req</obj_property>
+      <obj_property name="ObjectShortName">mem_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/mem_rdata" type="array">
+      <obj_property name="ElementShortName">mem_rdata[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rdata[3:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/mem_ready" type="logic">
+      <obj_property name="ElementShortName">mem_ready</obj_property>
+      <obj_property name="ObjectShortName">mem_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/checks" type="array">
+      <obj_property name="ElementShortName">checks[31:0]</obj_property>
+      <obj_property name="ObjectShortName">checks[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/NUM_SETS" type="array">
+      <obj_property name="ElementShortName">NUM_SETS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_SETS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/BLOCK_SIZE" type="array">
+      <obj_property name="ElementShortName">BLOCK_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLOCK_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/OFFSET_BITS" type="array">
+      <obj_property name="ElementShortName">OFFSET_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OFFSET_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/INDEX_BITS" type="array">
+      <obj_property name="ElementShortName">INDEX_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INDEX_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/ADDR_A" type="array">
+      <obj_property name="ElementShortName">ADDR_A[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_A[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/ADDR_B" type="array">
+      <obj_property name="ElementShortName">ADDR_B[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_B[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cache_2way/ADDR_C" type="array">
+      <obj_property name="ElementShortName">ADDR_C[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_C[9:0]</obj_property>
+   </wvobject>
+</wave_config>
